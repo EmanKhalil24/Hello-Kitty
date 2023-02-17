@@ -1,0 +1,773 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 755px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: bg 2s ease-in-out infinite;
+}
+@keyframes bg {
+  0% {
+    background: linear-gradient(90deg, rgb(238, 174, 202), rgba(148, 187, 233));
+  }
+  100% {
+    background: linear-gradient(90deg, rgba(148, 187, 233), rgb(238, 174, 202));
+  }
+}
+.box {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: 22%;
+  right: 39%;
+}
+.a {
+  width: 9%;
+  right: 12%;
+}
+.a,
+.b,
+.c,
+.d {
+  background: black;
+}
+.a,
+.b,
+.c,
+.d,
+.e,
+.f,
+.g,
+.h,
+.j,
+.k,
+.l,
+.m,
+.n,
+.o,
+.p,
+.q,
+.r,
+.t,
+.u,
+.i,
+.w,
+.v,
+.y,
+.x,
+.z,
+.s,
+.lf1,
+.lf2,
+.right1,
+.right2 {
+  position: absolute;
+  height: 3%;
+  display: flex;
+}
+.b {
+  top: 3%;
+  background: rgb(255, 255, 255);
+  width: 9%;
+  right: 12%;
+}
+.c {
+  top: 6%;
+  width: 9%;
+  right: 9%;
+}
+.d {
+  width: 3%;
+  right: 9%;
+  top: 3%;
+  border-bottom: 1px solid rgba(177, 177, 177, 0.404);
+}
+.f,
+.g,
+.h,
+.j,
+.k,
+.l,
+.m,
+.n,
+.o,
+.p,
+.q,
+.r,
+.t,
+.u,
+.i,
+.w,
+.v,
+.y,
+.x,
+.z,
+.s,
+.lf1,
+.lf2,
+.right1,
+.right2 {
+  width: 3%;
+  flex-direction: column;
+  top: 9%;
+}
+.e {
+  height: 48%;
+  right: 6%;
+  width: 3%;
+  flex-direction: column;
+  top: 9%;
+}
+.f {
+  right: 9%;
+  height: 45%;
+}
+.g {
+  right: 12%;
+  height: 42%;
+}
+.h {
+  right: 15%;
+  height: 60%;
+}
+.j {
+  right: 18%;
+  height: 72%;
+  top: 6%;
+}
+.k {
+  top: 3%;
+  right: 21%;
+  height: 78%;
+}
+.l {
+  top: 3%;
+  right: 24%;
+  height: 81%;
+}
+.m {
+  top: 0%;
+  right: 27%;
+  height: 84%;
+}
+.n {
+  top: 0%;
+  right: 30%;
+  height: 84%;
+}
+.o {
+  top: 0%;
+  right: 33%;
+  height: 81%;
+}
+.p {
+  top: 3%;
+  right: 36%;
+  height: 75%;
+}
+.q {
+  top: 9%;
+  right: 39%;
+  height: 69%;
+}
+.r {
+  top: 9%;
+  right: 42%;
+  height: 72%;
+}
+.t {
+  top: 9%;
+  right: 45%;
+  height: 75%;
+}
+.u {
+  top: 9%;
+  right: 48%;
+  height: 75%;
+}
+.i {
+  top: 6%;
+  right: 51%;
+  height: 78%;
+}
+.w {
+  top: 6%;
+  right: 54%;
+  height: 75%;
+}
+.v {
+  top: 3%;
+  right: 57%;
+  height: 75%;
+}
+.y {
+  top: 3%;
+  right: 60%;
+  height: 66%;
+}
+.x {
+  top: 3%;
+  right: 63%;
+  height: 48%;
+}
+.z {
+  top: 3%;
+  right: 66%;
+  height: 51%;
+}
+.s {
+  top: 6%;
+  right: 69%;
+  height: 51%;
+}
+.lf1 {
+  top: 33%;
+  right: 72%;
+  height: 15%;
+}
+.lf2 {
+  top: 33%;
+  right: 75%;
+  height: 3%;
+}
+.right1 {
+  top: 33%;
+  right: 3%;
+  height: 15%;
+}
+.right2 {
+  top: 33%;
+  right: 0%;
+  height: 3%;
+}
+.f div:nth-child(1),
+.f div:nth-child(2),
+.f div:nth-child(3),
+.f div:nth-child(4),
+.g div:nth-child(1),
+.g div:nth-child(2),
+.g div:nth-child(3),
+.g div:nth-child(4),
+.h div:nth-child(1),
+.h div:nth-child(2),
+.h div:nth-child(3),
+.h div:nth-child(4),
+.k div:nth-child(3),
+.k div:nth-child(4),
+.k div:nth-child(5),
+.l div:nth-child(3),
+.l div:nth-child(4),
+.m div:nth-child(2),
+.m div:nth-child(3),
+.n div:nth-child(2),
+.n div:nth-child(3),
+.n div:nth-child(4),
+.n div:nth-child(5),
+.o div:nth-child(2),
+.o div:nth-child(3),
+.o div:nth-child(4),
+.o div:nth-child(5) {
+  background: pink;
+}
+.f div:nth-child(8),
+.f div:nth-child(10),
+.f div:nth-child(11),
+.g div:nth-child(6),
+.g div:nth-child(7),
+.g div:nth-child(8),
+.g div:nth-child(9),
+.g div:nth-child(10),
+.g div:nth-child(12),
+.g div:nth-child(13),
+.h div:nth-child(6),
+.h div:nth-child(7),
+.h div:nth-child(8),
+.h div:nth-child(9),
+.h div:nth-child(10),
+.h div:nth-child(11),
+.h div:nth-child(12),
+.h div:nth-child(13),
+.h div:nth-child(14),
+.j div:nth-child(5),
+.j div:nth-child(6),
+.j div:nth-child(7),
+.j div:nth-child(8),
+.j div:nth-child(9),
+.j div:nth-child(10),
+.j div:nth-child(11),
+.j div:nth-child(12),
+.j div:nth-child(13),
+.j div:nth-child(14),
+.j div:nth-child(15),
+.j div:nth-child(20),
+.j div:nth-child(21),
+.k div:nth-child(7),
+.k div:nth-child(8),
+.k div:nth-child(9),
+.k div:nth-child(10),
+.k div:nth-child(14),
+.k div:nth-child(15),
+.k div:nth-child(16),
+.k div:nth-child(17),
+.k div:nth-child(21),
+.k div:nth-child(24),
+.k div:nth-child(25),
+.l div:nth-child(6),
+.l div:nth-child(7),
+.l div:nth-child(8),
+.l div:nth-child(9),
+.l div:nth-child(10),
+.l div:nth-child(14),
+.l div:nth-child(15),
+.l div:nth-child(16),
+.l div:nth-child(17),
+.l div:nth-child(26),
+.l div:nth-child(25),
+.l div:nth-child(24),
+.m div:nth-child(7),
+.m div:nth-child(8),
+.m div:nth-child(9),
+.m div:nth-child(10),
+.m div:nth-child(11),
+.m div:nth-child(12),
+.m div:nth-child(13),
+.m div:nth-child(14),
+.m div:nth-child(15),
+.m div:nth-child(16),
+.m div:nth-child(17),
+.m div:nth-child(18),
+.m div:nth-child(25),
+.m div:nth-child(26),
+.m div:nth-child(27),
+.n div:nth-child(7),
+.n div:nth-child(8),
+.n div:nth-child(9),
+.n div:nth-child(10),
+.n div:nth-child(11),
+.n div:nth-child(12),
+.n div:nth-child(13),
+.n div:nth-child(14),
+.n div:nth-child(15),
+.n div:nth-child(16),
+.n div:nth-child(17),
+.n div:nth-child(18),
+.n div:nth-child(26),
+.n div:nth-child(27),
+.o div:nth-child(7),
+.o div:nth-child(8),
+.o div:nth-child(9),
+.o div:nth-child(10),
+.o div:nth-child(11),
+.o div:nth-child(12),
+.o div:nth-child(13),
+.o div:nth-child(14),
+.o div:nth-child(15),
+.o div:nth-child(16),
+.o div:nth-child(17),
+.o div:nth-child(18),
+.p div:nth-child(5),
+.p div:nth-child(6),
+.p div:nth-child(7),
+.p div:nth-child(8),
+.p div:nth-child(9),
+.p div:nth-child(10),
+.p div:nth-child(11),
+.p div:nth-child(12),
+.p div:nth-child(13),
+.p div:nth-child(15),
+.p div:nth-child(16),
+.p div:nth-child(17),
+.q div:nth-child(2),
+.q div:nth-child(3),
+.q div:nth-child(4),
+.q div:nth-child(5),
+.q div:nth-child(6),
+.q div:nth-child(7),
+.q div:nth-child(8),
+.q div:nth-child(9),
+.q div:nth-child(10),
+.q div:nth-child(11),
+.q div:nth-child(13),
+.q div:nth-child(14),
+.q div:nth-child(15),
+.r div:nth-child(2),
+.r div:nth-child(3),
+.r div:nth-child(4),
+.r div:nth-child(5),
+.r div:nth-child(6),
+.r div:nth-child(7),
+.r div:nth-child(8),
+.r div:nth-child(9),
+.r div:nth-child(10),
+.r div:nth-child(11),
+.r div:nth-child(12),
+.r div:nth-child(13),
+.r div:nth-child(14),
+.r div:nth-child(15),
+.t div:nth-child(2),
+.t div:nth-child(3),
+.t div:nth-child(4),
+.t div:nth-child(5),
+.t div:nth-child(6),
+.t div:nth-child(7),
+.t div:nth-child(8),
+.t div:nth-child(9),
+.t div:nth-child(10),
+.t div:nth-child(11),
+.t div:nth-child(12),
+.t div:nth-child(13),
+.t div:nth-child(14),
+.t div:nth-child(15),
+.t div:nth-child(23),
+.t div:nth-child(24),
+.u div:nth-child(2),
+.u div:nth-child(3),
+.u div:nth-child(4),
+.u div:nth-child(5),
+.u div:nth-child(6),
+.u div:nth-child(7),
+.u div:nth-child(8),
+.u div:nth-child(9),
+.u div:nth-child(10),
+.u div:nth-child(11),
+.u div:nth-child(12),
+.u div:nth-child(13),
+.u div:nth-child(14),
+.u div:nth-child(15),
+.u div:nth-child(22),
+.u div:nth-child(23),
+.u div:nth-child(24),
+.i div:nth-child(2),
+.i div:nth-child(3),
+.i div:nth-child(4),
+.i div:nth-child(5),
+.i div:nth-child(6),
+.i div:nth-child(7),
+.i div:nth-child(8),
+.i div:nth-child(9),
+.i div:nth-child(13),
+.i div:nth-child(14),
+.i div:nth-child(15),
+.i div:nth-child(16),
+.i div:nth-child(23),
+.i div:nth-child(24),
+.i div:nth-child(25),
+.w div:nth-child(2),
+.w div:nth-child(3),
+.w div:nth-child(4),
+.w div:nth-child(5),
+.w div:nth-child(6),
+.w div:nth-child(7),
+.w div:nth-child(8),
+.w div:nth-child(9),
+.w div:nth-child(13),
+.w div:nth-child(14),
+.w div:nth-child(15),
+.w div:nth-child(16),
+.w div:nth-child(20),
+.w div:nth-child(23),
+.w div:nth-child(24),
+.v div:nth-child(2),
+.v div:nth-child(3),
+.v div:nth-child(4),
+.v div:nth-child(5),
+.v div:nth-child(6),
+.v div:nth-child(7),
+.v div:nth-child(8),
+.v div:nth-child(9),
+.v div:nth-child(10),
+.v div:nth-child(11),
+.v div:nth-child(12),
+.v div:nth-child(13),
+.v div:nth-child(14),
+.v div:nth-child(15),
+.v div:nth-child(16),
+.v div:nth-child(21),
+.v div:nth-child(22),
+.y div:nth-child(2),
+.y div:nth-child(3),
+.y div:nth-child(4),
+.y div:nth-child(5),
+.y div:nth-child(6),
+.y div:nth-child(7),
+.y div:nth-child(8),
+.y div:nth-child(9),
+.y div:nth-child(10),
+.y div:nth-child(11),
+.y div:nth-child(12),
+.y div:nth-child(13),
+.y div:nth-child(14),
+.y div:nth-child(15),
+.y div:nth-child(16),
+.x div:nth-child(2),
+.x div:nth-child(3),
+.x div:nth-child(4),
+.x div:nth-child(5),
+.x div:nth-child(7),
+.x div:nth-child(8),
+.x div:nth-child(9),
+.x div:nth-child(10),
+.x div:nth-child(11),
+.x div:nth-child(12),
+.x div:nth-child(14),
+.x div:nth-child(15),
+.z div:nth-child(2),
+.z div:nth-child(3),
+.z div:nth-child(4),
+.z div:nth-child(5),
+.z div:nth-child(9),
+.z div:nth-child(10),
+.z div:nth-child(12),
+.z div:nth-child(13) {
+  background: white;
+}
+.e div:nth-child(1),
+.e div:nth-child(2),
+.e div:nth-child(3),
+.e div:nth-child(4),
+.e div:nth-child(8),
+.e div:nth-child(9),
+.e div:nth-child(10),
+.e div:nth-child(11),
+.e div:nth-child(12),
+.e div:nth-child(16),
+.f div:nth-child(5),
+.f div:nth-child(6),
+.f div:nth-child(7),
+.f div:nth-child(9),
+.f div:nth-child(12),
+.f div:nth-child(13),
+.f div:nth-child(15),
+.g div:nth-child(5),
+.g div:nth-child(11),
+.g div:nth-child(14),
+.h div:nth-child(5),
+.h div:nth-child(15),
+.h div:nth-child(19),
+.h div:nth-child(20),
+.j div:nth-child(1),
+.j div:nth-child(2),
+.j div:nth-child(3),
+.j div:nth-child(4),
+.j div:nth-child(16),
+.j div:nth-child(19),
+.j div:nth-child(22),
+.j div:nth-child(23),
+.j div:nth-child(24),
+.k div:nth-child(1),
+.k div:nth-child(2),
+.k div:nth-child(6),
+.k div:nth-child(11),
+.k div:nth-child(12),
+.k div:nth-child(13),
+.k div:nth-child(18),
+.k div:nth-child(19),
+.k div:nth-child(22),
+.k div:nth-child(23),
+.k div:nth-child(26),
+.l div:nth-child(1),
+.l div:nth-child(2),
+.l div:nth-child(5),
+.l div:nth-child(11),
+.l div:nth-child(12),
+.l div:nth-child(13),
+.l div:nth-child(18),
+.l div:nth-child(20),
+.l div:nth-child(21),
+.l div:nth-child(23),
+.l div:nth-child(27),
+.m div:nth-child(1),
+.m div:nth-child(4),
+.m div:nth-child(5),
+.m div:nth-child(6),
+.m div:nth-child(19),
+.m div:nth-child(20),
+.m div:nth-child(24),
+.m div:nth-child(28),
+.n div:nth-child(1),
+.n div:nth-child(6),
+.n div:nth-child(19),
+.n div:nth-child(25),
+.n div:nth-child(28),
+.o div:nth-child(1),
+.o div:nth-child(6),
+.o div:nth-child(19),
+.o div:nth-child(20),
+.o div:nth-child(26),
+.o div:nth-child(27),
+.p div:nth-child(1),
+.p div:nth-child(2),
+.p div:nth-child(3),
+.p div:nth-child(4),
+.p div:nth-child(18),
+.p div:nth-child(25),
+.q div:nth-child(1),
+.q div:nth-child(16),
+.q div:nth-child(23),
+.r div:nth-child(1),
+.r div:nth-child(16),
+.r div:nth-child(17),
+.r div:nth-child(23),
+.r div:nth-child(24),
+.t div:nth-child(1),
+.t div:nth-child(16),
+.t div:nth-child(22),
+.t div:nth-child(25),
+.u div:nth-child(1),
+.u div:nth-child(16),
+.u div:nth-child(17),
+.u div:nth-child(21),
+.u div:nth-child(25),
+.i div:nth-child(1),
+.i div:nth-child(10),
+.i div:nth-child(11),
+.i div:nth-child(12),
+.i div:nth-child(17),
+.i div:nth-child(19),
+.i div:nth-child(20),
+.i div:nth-child(22),
+.i div:nth-child(26),
+.w div:nth-child(1),
+.w div:nth-child(10),
+.w div:nth-child(11),
+.w div:nth-child(12),
+.w div:nth-child(17),
+.w div:nth-child(18),
+.w div:nth-child(21),
+.w div:nth-child(22),
+.w div:nth-child(25),
+.v div:nth-child(1),
+.v div:nth-child(17),
+.v div:nth-child(20),
+.v div:nth-child(23),
+.v div:nth-child(24),
+.v div:nth-child(25),
+.y div:nth-child(1),
+.y div:nth-child(17),
+.y div:nth-child(21),
+.y div:nth-child(22),
+.x div:nth-child(1),
+.x div:nth-child(6),
+.x div:nth-child(13),
+.x div:nth-child(16),
+.z div:nth-child(1),
+.z div:nth-child(6),
+.z div:nth-child(7),
+.z div:nth-child(8),
+.z div:nth-child(11),
+.z div:nth-child(14),
+.z div:nth-child(15),
+.z div:nth-child(17),
+.s div:nth-child(1),
+.s div:nth-child(2),
+.s div:nth-child(3),
+.s div:nth-child(4),
+.s div:nth-child(8),
+.s div:nth-child(9),
+.s div:nth-child(10),
+.s div:nth-child(11),
+.s div:nth-child(12),
+.s div:nth-child(13),
+.s div:nth-child(17),
+.lf1 div:first-child,
+.lf1 div:last-child,
+.lf2 div:first-child,
+.right1 div:first-child,
+.right1 div:last-child,
+.right2 div:first-child {
+  background: black;
+}
+.k div:nth-child(20),
+.l div:nth-child(19),
+.p div:nth-child(19),
+.q div:nth-child(17),
+.i div:nth-child(18),
+.w div:nth-child(19) {
+  background: deeppink;
+}
+.l div:nth-child(22),
+.m div:nth-child(21),
+.m div:nth-child(22),
+.m div:nth-child(23),
+.n div:nth-child(20),
+.n div:nth-child(22),
+.n div:nth-child(23),
+.n div:nth-child(24),
+.o div:nth-child(21),
+.o div:nth-child(22),
+.o div:nth-child(23),
+.o div:nth-child(24),
+.o div:nth-child(25),
+.p div:nth-child(20),
+.p div:nth-child(21),
+.p div:nth-child(22),
+.p div:nth-child(23),
+.p div:nth-child(24),
+.q div:nth-child(18),
+.q div:nth-child(19),
+.q div:nth-child(20),
+.q div:nth-child(21),
+.q div:nth-child(22),
+.r div:nth-child(18),
+.r div:nth-child(19),
+.r div:nth-child(20),
+.r div:nth-child(21),
+.r div:nth-child(22),
+.t div:nth-child(17),
+.t div:nth-child(19),
+.t div:nth-child(20),
+.t div:nth-child(21),
+.u div:nth-child(18),
+.u div:nth-child(19),
+.u div:nth-child(20),
+.i div:nth-child(21) {
+  background: skyblue;
+}
+.n div:nth-child(21),
+.t div:nth-child(18) {
+  background: rgb(151, 151, 151);
+}
+.p div:nth-child(14),
+.q div:nth-child(12) {
+  background: gold;
+}
+.e div,
+.f div,
+.g div,
+.h div,
+.j div,
+.k div,
+.l div,
+.m div,
+.n div,
+.o div,
+.p div,
+.q div,
+.r div,
+.t div,
+.u div,
+.i div,
+.w div,
+.v div,
+.y div,
+.x div,
+.z div,
+.s div,
+.lf1 div,
+.lf2 div,
+.right1 div,
+.right2 div {
+  flex: 1;
+  border-bottom: 1px solid rgba(177, 177, 177, 0.404);
+  border-left: 1px solid rgba(177, 177, 177, 0.404);
+}
+.a div,
+.b div,
+.c div {
+  flex: 1;
+  border-left: 1px solid rgba(177, 177, 177, 0.404);
+}
